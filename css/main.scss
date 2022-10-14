@@ -101,7 +101,7 @@ section {
 }
 
 
-//Creating a circle for aesthetic, placed behind the text of my bio
+//Creating a circle for aesthetic, placed behind the text of my bio 
 .bio::before {
     content:"";
     position: absolute;
@@ -169,10 +169,20 @@ section {
     background: #f7f7f7;
 }
 
-.portfolio-container a img {
-    border-radius:1em;
-    margin-bottom:2em;
+.portfolio-container {
+    img { 
+        border-radius:1em;
+        margin-bottom:2em;
+    }
+    a {
+        border: 1px solid limegreen !important;
+        margin-left:auto;
+        margin-bottom: 3em;
+        
+    }
 }
+    
+
 
 
 
@@ -212,8 +222,10 @@ section {
         padding-top: 7em;
     }
 
-    .portfolio-container img {
+    .portfolio-container a img {
         margin-left:2em;
+        min-width: 50%;
+        max-width: 70%;
     }
 
     .contact {
